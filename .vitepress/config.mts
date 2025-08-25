@@ -3,6 +3,7 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";	// 改成自己的�
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/doc-demo/',
   title: "左边标题",
   description: "A VitePress Site",
   themeConfig: {
